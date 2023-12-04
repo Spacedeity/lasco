@@ -11,6 +11,35 @@
     
     
  }
+ h2{
+    top: 50px;
+    display: flex;
+    font-family: ravie;
+    justify-content: center;
+   
+ }
+ h4{
+    top: 100px;
+    display: flex;
+    font-family: ravie;
+    justify-content: center;
+   
+ }
+ h5{
+    top: 100px;
+    display: flex;
+    font-family: ravie;
+    justify-content: center;
+   
+ }
+ h6{
+    top: 100px;
+    font-size: 28px;
+    display: flex;
+    font-family: ravie;
+    justify-content: center;
+   
+ }
 h3{
     color:#00CC8B ;
  font-family: ravie;
@@ -382,10 +411,9 @@ P1{
         }
     
 
-
-.back{
+.back-3{
     height: 500px;
-    margin-top: 290px;
+    margin-top: 170px;
     background-size:cover;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -573,11 +601,9 @@ P1{
     filter:blur(0px);
 }
 
-
-
-.back-3{
+.back-4{
     height: 500px;
-    margin-top: 290px;
+    margin-top: 190px;
     background-size:cover;
     background-attachment:fixed;
     background-repeat: no-repeat;
