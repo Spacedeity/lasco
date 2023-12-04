@@ -12,8 +12,9 @@
     
  }
  h2{
-    top: 50px;
+    top: 40px;
     display: flex;
+    font-weight: 500;
     font-family: ravie;
     justify-content: center;
    
@@ -119,7 +120,7 @@ P1{
         border-radius: 10px;
         transition-duration: 300ms;
     }
-    .im-1:hover{
+    .img-1:hover{
         transform: scale(1.2);
         border-radius: 40%;}
 
@@ -129,13 +130,13 @@ P1{
         display: flex;
         font-weight: 600;
         justify-content: center;
-        color: #000000;
+        color: #ffff;
     }
     .Description{
         font-size:18px;
         font-weight: 400;
         margin-left: 10px;
-        color: #000000;
+        color:#ffff;
     }
     .drink-2{
         height:350px;
