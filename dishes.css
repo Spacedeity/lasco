@@ -130,13 +130,15 @@ P1{
         display: flex;
         font-weight: 600;
         justify-content: center;
-        color: #ffff;
+        color: azure !important; color: #ffff;
     }
     .Description{
+        
         font-size:18px;
-        font-weight: 400;
+        font-weight: 500;
         margin-left: 10px;
-        color:#ffff;
+        font-style: oblique;
+        color: azure !important;
     }
     .drink-2{
         height:350px;
