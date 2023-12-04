@@ -1,12 +1,15 @@
 *{
     box-sizing: border-box;
     font-family:palatin;
+    position: relative;
 }
 .header {
-    position:scroll;
-   text-align: center;
-   padding: 20px;
-   background-color:#004730;
+    position:static;
+    text-align: center;
+    padding: 20px;
+    background-color:#004730;
+    
+    
  }
 h3{
     color:#00CC8B ;
@@ -52,16 +55,16 @@ P1{
     justify-content: center; 
 }
 .back-1{
-    position: relative;
-    height: 350px;
-    margin-top: 250px;
+    position:relative;
+    height: 450px;
+    margin-top:1950px;
     background-size:cover;
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-image: url("images/drink2.jpg");
     }
     .drink-1{
-        height:280px;
+        height:350px;
         width:300px;
         /* margin-top:50px; */
         margin-left:100px;
@@ -81,7 +84,7 @@ P1{
     }
     .img-1{
         width:290px;
-        height:120px;
+        height:220px;
         margin-left: 4px;
         border-radius: 10px;
         transition-duration: 300ms;
@@ -219,7 +222,7 @@ P1{
 
 .back{
     height: 500px;
-    margin-top: 390px;
+    margin-top: 590px;
     background-size:cover;
     background-attachment:fixed;
     background-repeat: no-repeat;
