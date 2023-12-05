@@ -2,10 +2,11 @@
     box-sizing: border-box;
 
 }
+
 .header {
-     position: sticky;
+    padding: 0.5%;
+    position: sticky;
     text-align: center;
-    padding: 20px;
     background-color:#004730;
   }
 
@@ -44,4 +45,12 @@
   h3{
       color:#00CC8B ;
    font-family: ravie;
+  }
+  @media screen(min-width:500px) {
+    .header{
+    min-width: 300px;
+    font-size :10px;
+
+    }
+    
   }

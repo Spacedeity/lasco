@@ -2,6 +2,7 @@
     box-sizing: border-box;
 
 }
+
 .header {
      position: sticky;
     text-align: center;
@@ -52,11 +53,11 @@ h2{
   
     top: 50%;
     width: 100%;
-    color: #000000;
+    color: #f7f5f5;
     font-weight: 500;
     font-family:ravie;
-    margin-top: 10px;
-    margin-left: 980px;
+    margin-top: 80px;
+    margin-left: -250px;
     position: absolute;
     transform: translateY(-50%);
     
@@ -66,9 +67,9 @@ h2{
     font-size:15px;
   }
 
-  @media (min-width: 768px) {
+  @media only screen  (max-width: 500px) {
     .carousel-caption {
-      text-align: left;
-      padding: 20px;
+     text-align: center;
+      font-size: 2%;
     }
   }
