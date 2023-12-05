@@ -3,6 +3,9 @@
     font-family:palatin;
     position: relative;
 }
+body{
+    background-color: white;
+}
 .header {
     position:static;
     text-align: center;
@@ -794,3 +797,28 @@ P1{
     transform: scale(1);
     filter:blur(0px);
 }
+@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+    img{
+        width: 100%;
+    }
+    .header{
+    
+      width:390px;
+      font-size: 15px;
+      padding: 5px;
+    }
+    a{
+      padding: 5px;
+     font-size: xx-small;
+    }
+    h3{
+      font-size: 10px;
+    }
+    h1{
+ font-size: 1.1rem;
+ text-align: center;
+    }
+  }

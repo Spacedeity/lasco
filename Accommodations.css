@@ -46,11 +46,28 @@
       color:#00CC8B ;
    font-family: ravie;
   }
-  @media screen(min-width:500px) {
-    .header{
-    min-width: 300px;
-    font-size :10px;
-
+  @media only screen and (max-width: 600px) {
+    body {
+      
     }
+    img{
+        width: 100%;
+    }
+    .header{
     
+      width:390px;
+      font-size: 15px;
+      padding: 5px;
+    }
+    a{
+      padding: 5px;
+     font-size: xx-small;
+    }
+    h3{
+      font-size: 10px;
+    }
+    h1{
+ font-size: 1.1rem;
+ text-align: center;
+    }
   }
