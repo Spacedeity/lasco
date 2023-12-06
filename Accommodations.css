@@ -46,7 +46,7 @@
       color:#00CC8B ;
    font-family: ravie;
   }
-  @media screen and (max-width: 480px) and (orientation: portrait){
+  @media only screen and (orientation:potrait) (max-width: 600px) {
     body {
       
     }
