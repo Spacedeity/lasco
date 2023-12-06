@@ -6,7 +6,7 @@
 nav{
   background-color: #004730;
 }
-.container{
+.card{
   padding: 10px;
   
 }
@@ -56,7 +56,7 @@ nav{
    .card-body{
     border: none;
    }
-  .container-1{
+  .card-1{
     height:350px;
     width:300px;
     
@@ -71,7 +71,7 @@ nav{
     background-color: transparent;
     box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.945);
   }
-  .container-1:hover{
+  .card-1:hover{
     
     transform:translateY(-20px);
 }
@@ -85,7 +85,7 @@ nav{
 #img-1:hover{
     transform: scale(1.2);
     border-radius: 40%;}
-    .container-2{
+ .card-2{
       height:350px;
       width:300px;
       margin-top:-350px;
@@ -100,7 +100,7 @@ nav{
       background-color: transparent;
       box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.945);
   }
-  .container-2:hover{
+  .card-2:hover{
       
       transform:translateY(-20px);
   }
@@ -115,12 +115,12 @@ nav{
 
 }
 #img-2:hover{
-    /* transform: scale(1); */
+    
     transform: translateY(-10px);
   }
 
 
-  .container-3{
+  .card-3{
       height:350px;
       width:300px;
       margin-top:-350px;
@@ -135,11 +135,24 @@ nav{
       background-color: transparent;
       box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.945);
   }
-  .container-3:hover{
+  .card-3:hover{
      
       transform:translateY(-20px);
   }
-  .container-4{
+  #img-3{
+    width:290px;
+    height:220px;
+    margin-left: 4px;
+    border-radius: 10px;
+    transition-duration: 300ms;
+    border-radius:50px;
+    transform: scale(0.8);
+
+}
+#img-3:hover{
+    transform: scale(1);}
+
+  .card-4{
       height:350px;
       width:300px;
       margin-top:-290px;
@@ -154,12 +167,12 @@ nav{
       background-color: transparent;
       box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.945);
   }
-  .container-4:hover{
+  .card-4:hover{
       transform: translateY(-80px);
      
       
   }
-  .img-4{
+  #img-4{
       width:290px;
       height:220px;
       margin-left: 4px;
@@ -170,11 +183,11 @@ nav{
       opacity: 0.7;
   
   }
-  .img-4:hover{
+  #img-4:hover{
       transform: scale(1);
       opacity: 1;
   }
-  .container-5{
+  .card-5{
       height:350px;
       width:300px;
       margin-top:-351px;
@@ -189,7 +202,7 @@ nav{
       background-color: transparent;
       box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.945);
   }
-  .container-5:hover{
+  .card-5:hover{
       
       transform: scale(1.1);
       
