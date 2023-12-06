@@ -6,14 +6,28 @@
 body{
     background-color: white;
 }
-.header {
-    position:static;
-    text-align: center;
-    padding: 20px;
-    background-color:#004730;
+
+nav{
     
+    background-color: #004730;
+  }
+.container{
+    padding: 10px;
     
- }
+  }
+  .navbar-brand{
+    
+    font-family: ravie;
+    color: #00CC8B;
+    transition-duration: 300ms;
+  }
+  
+  .navbar-brand:hover{
+    color: aliceblue;
+    transform: translateY(-10px);
+    transition-duration: 300ms;
+  }
+  
  h2{
     top: 40px;
     display: flex;
@@ -52,32 +66,36 @@ h3{
     color:#00CC8B ;
  font-family: ravie;
 }
- .nav-bar ul {
-   list-style: none;
-   padding: 0;
-   display: flex;
-   justify-content: center;
- }
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
 
- .nav-bar ul li {
-   margin: 0 50px;
-   transition-duration: 300ms;
- }
- a{
-    top: 15px;
+  .nav-bar ul li {
+    margin: 0 10px;
+  }
+  a{
+    margin: 0px  20px;
     padding: 20px;
-   color: #00CC8B;
-   font-weight: 400;
-   font-family:poppins;
-   text-decoration: none;
-   transition-duration: 300ms;
- }
- li:hover{
+    font-weight: 400;
+    font-family:Roboto;
+    
+  }
+  li{
+    border-radius:5px ;
+    transition-duration: 300ms;
+    
+  }
+  li:hover{
     transform: translateY(-10px);
  }
- a:hover{
+  a:hover{
     border-bottom: solid 2px darkcyan;
- }
+  }
+  
+ 
 h1{
     margin-top: 20px;
     display:flex;
