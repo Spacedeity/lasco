@@ -59,7 +59,7 @@ nav{
   .card-1{
     height:350px;
     width:300px;
-    
+    margin-top:90px;
     margin-left:100px;
     border:solid 1px;
     border-style: outset;
@@ -73,7 +73,7 @@ nav{
   }
   .card-1:hover{
     
-    transform:translateY(-20px);
+    transform:translateY(-10px);
 }
 #img-1{
     width:290px;
@@ -102,7 +102,7 @@ nav{
   }
   .card-2:hover{
       
-      transform:translateY(-20px);
+      transform:translateY(-10px);
   }
   #img-2{
     width:290px;
@@ -208,7 +208,7 @@ nav{
       
       
   }
-  .img-5{
+  #img-5{
       width:290px;
       height:220px;
       margin-left: 4px;
@@ -219,7 +219,7 @@ nav{
       filter:blur(2px);
   
   }
-  .img-5:hover{
+  #img-5:hover{
       transform: scale(1);
       filter:blur(0px);
   } 
