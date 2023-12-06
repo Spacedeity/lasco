@@ -46,6 +46,9 @@ body{
    
  }
 h3{
+    position: absolute;
+    top: 0%;
+    margin-left: 900px;
     color:#00CC8B ;
  font-family: ravie;
 }
@@ -57,10 +60,11 @@ h3{
  }
 
  .nav-bar ul li {
-   margin: 0 10px;
+   margin: 0 50px;
    transition-duration: 300ms;
  }
  a{
+    top: 15px;
     padding: 20px;
    color: #00CC8B;
    font-weight: 400;
