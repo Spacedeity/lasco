@@ -10,6 +10,8 @@
     background-color:#004730;
   }
 h2{
+  position: absolute;
+  margin-top: 0px;
   color: #00CC8B;
   font-family: ravie;
 }
@@ -21,7 +23,7 @@ h2{
   }
 
   .nav-bar ul li {
-    margin: 0 110px;
+    margin: 0 100px;
   }
   a{
     padding: 20px;
