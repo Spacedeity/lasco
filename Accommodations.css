@@ -53,7 +53,7 @@ nav{
   a:hover{
     border-bottom: solid 2px darkcyan;
    }
-  .card{
+  /* .card{
     height:350px;
     width:300px;
     
@@ -190,4 +190,4 @@ nav{
   .im-5:hover{
       transform: scale(1);
       filter:blur(0px);
-  } */
+  }  */
