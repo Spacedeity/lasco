@@ -2,7 +2,10 @@
     box-sizing: border-box;
 
 }
-
+body{
+  z-index: -2;
+  height: auto;
+}
 nav{
   background-color: #004730;
 }
