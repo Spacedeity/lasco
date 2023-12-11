@@ -12,7 +12,7 @@ nav {
 
 .navbar-brand {
   font-family: ravie;
-  color: #00CC8B;
+  color: #00cc8b;
   transition-duration: 300ms;
 }
 
@@ -27,10 +27,12 @@ a {
   padding: 20px;
   font-weight: 400;
   font-family: Roboto;
+  color: #00cc8b;
+  transition-duration: 300ms;
 }
 
 li {
-  color: #00CC8B;
+  color: #00cc8b;
   border-radius: 5px;
   transition-duration: 300ms;
 }
@@ -50,74 +52,45 @@ img {
 
 .con {
   margin-top: 50px;
-  width: 90%;
+  width: 50%;
   background-color: #00291c;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.945);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 .caption {
-  position: absolute;
   width: 100%;
   text-align: center;
-  font-size: 1.5vw;
-  top: 350px;
-  max-height: 100px;
+  font-size: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #00eba0;
 }
 
-h1 {
+h1,
+p1 {
   font-family: serif;
   color: #00eba0;
 }
 
-/* Your existing CSS */
-
-/* ... */
-
-footer {
-  position: relative;
-  width: 100%;
-  height: 5rem;
-  margin-top: 55px;
-  color: #00cc8b;
-  background-color: #00291c;
-  text-align: center;
-  padding: 20px 0;
+hr {
+  margin: 5rem auto;
+  max-width: 105em;
 }
-
-p {
-  margin: 0;
-  font-size: 1rem;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  footer {
-    height: auto;
-  }
-}
-
 
 @media (min-width: 40em) {
-  body {
-    display: flex;
-  }
-
   .caption {
-    margin-bottom: 1.25rem;
     font-size: 1.25rem;
-    line-height: 1.4;
   }
 
   .con {
-    width: 40em;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+    flex-direction: column;
   }
 }
-
-
 
 
 
