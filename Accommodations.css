@@ -79,8 +79,8 @@ a:hover {
 }
 
 .card img {
-  width: 290px;
-  height: 220px;
+  width: 120px;
+  height: 80px;
   margin-left: 4px;
   border-radius: 5px;
   transition-duration: 300ms;
@@ -99,7 +99,7 @@ a:hover {
   }
 
   .card img {
-/*     width: 100%; /* Adjusted to fill card width */ */
+    width: 100%; /* Adjusted to fill card width */ 
     max-width: 100px; /* Adjusted for smaller screens */
     height: auto; /* Added to maintain aspect ratio */
     margin: 0 auto; /* Center the image horizontally */
