@@ -87,7 +87,7 @@ a:hover {
   transform: scale(1.2);
   border-radius: 40%;
 }
- @ media  (max-width: 500px){
+ @media (max-width: 450px){
    
    
    .card{
