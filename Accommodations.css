@@ -87,6 +87,19 @@ a:hover {
   transform: scale(1.2);
   border-radius: 40%;
 }
+ @ media screen (max-width: 500px){
+   img:max-width;
+   
+   .card{
+     width:200px;
+     height:159px;
+   }
+   
+   .card img {
+  width: 90px;
+  height: 70px;
+ }
+
 
 
 
