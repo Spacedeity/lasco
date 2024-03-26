@@ -87,19 +87,20 @@ a:hover {
   transform: scale(1.2);
   border-radius: 40%;
 }
- @media (max-width: 450px){
-   
-   
-   .card{
-     width:297px;
-     height245px;
-   }
-   
-   .card img {
-  width: 90px;
-  height: 70px;
- }
+@media (max-width: 450px) {
+  .card {
+    width: 90%; /* Adjusted to fill screen width */
+    max-width: 297px; /* Added to set maximum width */
+    height: auto; /* Added to adjust height based on content */
+    margin: 10px auto; /* Center the card horizontally */
+  }
 
-
+  .card img {
+    width: 100%; /* Adjusted to fill card width */
+    max-width: 100px; /* Adjusted for smaller screens */
+    height: auto; /* Added to maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+}
 
 
