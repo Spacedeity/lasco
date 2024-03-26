@@ -124,7 +124,7 @@ p1{
         border: none;
        }
       .card-1{
-        height:450px;
+        height:250px;
         width:300px;
         margin-top:95px;
         margin-left:100px;
@@ -143,8 +143,8 @@ p1{
         transform:translateY(-10px);
     }
     #img-1{
-        width:290px;
-        height:320px;
+        width:170px;
+        height:120px;
         margin-left: 4px;
         border-radius: 10px;
         transition-duration: 300ms;
@@ -153,7 +153,7 @@ p1{
         transform: scale(1.2);
         border-radius: 50%;}
      .card-2{
-        height:450px;
+        height:250px;
           width:300px;
           margin-top:-445px;
           margin-left:450px;
@@ -172,8 +172,8 @@ p1{
           transform:translateY(-10px);
       }
       #img-2{
-        width:290px;
-        height:320px;
+        width:190px;
+        height:120px;
         margin-left: 4px;
         border-radius: 10px;
         transition-duration: 300ms;
@@ -188,7 +188,7 @@ p1{
     
     
       .card-3{
-          height:450px;
+          height:250px;
           width:300px;
           margin-top:-450px;
           margin-left:800px;
@@ -207,8 +207,8 @@ p1{
           transform:translateY(-20px);
       }
       #img-3{
-        width:290px;
-        height:320px;
+        width:190px;
+        height:120px;
         margin-left: 4px;
         border-radius: 10px;
         transition-duration: 300ms;
@@ -220,7 +220,7 @@ p1{
         transform: scale(1);}
     
       .card-4{
-          height:450px;
+          height:250px;
           width:300px;
           margin-top:-390px;
           margin-left:1150px;
@@ -240,8 +240,8 @@ p1{
           
       }
       #img-4{
-          width:290px;
-          height:320px;
+          width:190px;
+          height:120px;
           margin-left: 4px;
           border-radius: 10px;
           transition-duration: 300ms;
@@ -255,10 +255,10 @@ p1{
           opacity: 1;
       }
       .card-5{
-          height:450px;
+          height:250px;
           width:300px;
           margin-top:-451px;
-          margin-left:1500px;
+          margin-left:100px;
           border:solid 1px;
           border-style: outset;
           border-radius: 15px;
@@ -276,8 +276,8 @@ p1{
           
       }
       #img-5{
-          width:290px;
-          height:320px;
+          width:190px;
+          height:120px;
           margin-left: 4px;
           border-radius: 10px;
           transition-duration: 300ms;
@@ -291,8 +291,8 @@ p1{
           filter:blur(0px);
       } 
       
-      .card-6{
-        height:350px;
+/*       .card-6{ 
+        height:250px;
         width:300px;
         margin-top:90px;
         margin-left:100px;
@@ -313,8 +313,8 @@ p1{
         
     }
     #img-6{
-      width:290px;
-      height:220px;
+      width:190px;
+      height:120px;
       margin-left: 4px;
       border-radius: 10px;
       transition-duration: 300ms;
@@ -323,7 +323,7 @@ p1{
       transform: scale(1.2);
       border-radius: 40%;}
     .card-7{
-      height:350px;
+      height:250px;
           width:300px;
           margin-top:-350px;
           margin-left:450px;
@@ -344,8 +344,8 @@ p1{
       
     }
     #img-7{
-      width:290px;
-      height:220px;
+      width:190px;
+      height:120px;
       margin-left: 4px;
       border-radius: 10px;
       transition-duration: 300ms;
@@ -358,7 +358,7 @@ p1{
       transform: translateY(-10px);
     }
     .card-8{
-      height:350px;
+      height:250px;
           width:300px;
           margin-top:-350px;
           margin-left:800px;
@@ -379,8 +379,8 @@ p1{
       
     }
     #img-8{
-      width:290px;
-      height:220px;
+      width:190px;
+      height:120px;
       margin-left: 4px;
       border-radius: 10px;
       transition-duration: 300ms;
@@ -392,7 +392,7 @@ p1{
       transform: scale(1);}
     
     .card-9{
-      height:350px;
+      height:250px;
       width:300px;
       margin-top:-290px;
       margin-left:1150px;
@@ -413,8 +413,8 @@ p1{
       
     }
     #img-9{
-      width:290px;
-      height:220px;
+      width:190px;
+      height:120px;
       margin-left: 4px;
       border-radius: 10px;
       transition-duration: 300ms;
@@ -428,7 +428,7 @@ p1{
       opacity: 1;
     } 
     .card-10{
-      height:350px;
+      height:250px;
       width:300px;
       margin-top:-351px;
       margin-left:1500px;
@@ -449,8 +449,8 @@ p1{
       
     }
     #img-10{
-      width:290px;
-      height:220px;
+      width:190px;
+      height:120px;
       margin-left: 4px;
       border-radius: 10px;
       transition-duration: 300ms;
@@ -462,7 +462,7 @@ p1{
     #img-10:hover{
       transform: scale(1);
       filter:blur(0px);
-    } 
+    } */
     
     
     
