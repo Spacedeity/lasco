@@ -253,7 +253,7 @@ p1{
           border-style: outset;
           border-radius: 15px;
           text-overflow: clip;
-          backdrop-filter: blur(5px);
+          /* backdrop-filter: blur(5px); */
           transform: skewX(50px);
           transition-duration: 300ms;
           background-color: transparent;
