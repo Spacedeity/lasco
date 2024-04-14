@@ -106,4 +106,8 @@ a:hover {
   }
 }
 
-
+footer{
+  height: 80px;
+  width:100%;
+  color: #00291C;
+}
