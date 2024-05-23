@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family:palatin;
+    margin: 0%;
+    padding: 0%;
     position: relative;
 }
 body{
@@ -9,90 +10,58 @@ body{
 
 nav{
   width: 100%;
-    background-color: #004730;
+  background-color: #004730;
+  filter: drop-shadow(5px 10px 15px rgb(74, 144, 235));
   }
-.container{
-    padding: 10px;
-    
-  }
+
   .navbar-brand{
     
-    font-family: ravie;
+    font-family: poppins;
     color: #00CC8B;
     transition-duration: 300ms;
+    
+
   }
   
   .navbar-brand:hover{
     color: aliceblue;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     transition-duration: 300ms;
   }
   
- h2{
-    top: 40px;
+
+ ul {
+    
+    height: -30px;
     display: flex;
-    font-weight: 500;
-    font-family: ravie;
-    justify-content: center;
-   
- }
- h4{
-    top: 50px;
-    display: flex;
-    font-family: ravie;
-    justify-content: center;
-   
- }
- h5{
-    top: 100px;
-    display: flex;
-    font-size: 25px;
-    font-family: ravie;
-    justify-content: center;
-   
- }
- h6{
-    top: 100px;
-    display: flex;
-    font-size: 28px;
-    font-family: ravie;
-    justify-content: center;
-   
- }
-h3{
-    position: absolute;
-    top: 0%;
-    margin-left: 900px;
-    color:#00CC8B ;
- font-family: ravie;
-}
-.nav-bar ul {
     list-style: none;
-    padding: 0;
-    display: flex;
     justify-content: center;
   }
 
-  .nav-bar ul li {
-    margin: 0 10px;
-  }
-  a{
-    margin: 0px  20px;
-    padding: 20px;
-    font-weight: 400;
-    font-family:Roboto;
-    
-  }
-  li{
+  .navbar-nav li{
+    margin:0px 40px;
+    padding: 2px ;
+    height: 30px;
     border-radius:5px ;
     transition-duration: 300ms;
     
   }
+.nav-link{
+  color: #11ebb8;
+    margin: 0px  10px;
+    padding: 2px 4px;
+    
+    font-family:Roboto;
+    
+  }
+  
   li:hover{
-    transform: translateY(-10px);
+   
+    transform: translateY(-5px);
+    border-bottom: solid 2px rgb(252, 250, 249);
  }
-  a:hover{
-    border-bottom: solid 2px darkcyan;
+.nav-link:hover{
+  color: rgb(238, 12, 106); 
   }
   
  
@@ -102,6 +71,46 @@ h1{
     color: #004730;
     font-family: ravie;
     justify-content: center; 
+}
+
+
+h2{
+  top: 40px;
+  display: flex;
+  font-weight: 500;
+  font-family: ravie;
+  justify-content: center;
+ 
+}
+h4{
+  top: 50px;
+  display: flex;
+  font-family: ravie;
+  justify-content: center;
+ 
+}
+h5{
+  top: 100px;
+  display: flex;
+  font-size: 25px;
+  font-family: ravie;
+  justify-content: center;
+ 
+}
+h6{
+  top: 100px;
+  display: flex;
+  font-size: 28px;
+  font-family: ravie;
+  justify-content: center;
+ 
+}
+h3{
+  position: absolute;
+  top: 0%;
+  margin-left: 900px;
+  color:#00CC8B ;
+font-family: ravie;
 }
 p1{
     margin-top: 20px;

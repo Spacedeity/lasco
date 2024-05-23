@@ -5,13 +5,10 @@
 nav{
   background-color: #004730;
 }
-.container{
-  padding: 10px;
-  
-}
+
 .navbar-brand{
   
-  font-family: ravie;
+  font-family: roboto;
   color: #00CC8B;
   transition-duration: 300ms;
 }
@@ -19,19 +16,23 @@ nav{
 
 .navbar-brand:hover{
   color: #fff;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   transition-duration: 300ms;
 }
 
  
-  a{
-    margin: 0px  20px;
-    padding: 20px;
+.nav-link{
+  color: #d5f1e8;
+  margin: 0px  10px;
+  padding: 2px 4px;
     font-weight: 400;
     font-family:Roboto;
     
   }
   li{
+    margin:0px 40px;
+    padding: 2px ;
+    height: 30px;
     color: #00CC8B;
     border-radius:5px ;
     transition-duration: 300ms;
@@ -39,9 +40,9 @@ nav{
   }
   li:hover{
    
-    transform: translateY(-10px);
+    transform: translateY(-5px);
  }
-  a:hover{
+.nav-link:hover{
     color: aliceblue;
     border-bottom: solid 2px darkcyan;
   }
